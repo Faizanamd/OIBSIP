@@ -1,0 +1,242 @@
+/* Reset some default styles */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 102, 0);
+   
+}
+
+/* Header styles */
+header {
+    background-color: grey;
+    color: rgb(255, 102, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Hero section styles */
+.hero {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+
+    background-size: cover;
+    color: rgb(255, 102, 0);
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Features, Pricing, Testimonials, CTA, and Footer sections can be styled similarly as per your design requirements. */
+.features {
+    background-color: grey;
+    /* padding: 50px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.feature {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 0px 25px rgb(2, 1, 1);
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+}
+
+.pricing {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-plan {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 25px rgb(2, 1, 1);
+    border-radius: 10px;
+}
+
+.pricing-plan h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.pricing-plan p {
+    font-size: 16px;
+    color: #666;
+}
+
+.pricing-plan h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.pricing-plan button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.testimonials {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.testimonial {
+    width: 300px;
+    margin: 20px 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;    
+    box-shadow: 0px 0px 25px rgb(2, 1, 1);
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.testimonial cite {
+    font-style: italic;
+    color: #777;
+    font-size: 14px;
+}
+
+.cta {
+    background-image: url('cta-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 102, 0);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h2 {
+    font-size: 36px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.cta button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: left;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+}
